@@ -311,3 +311,43 @@ main h2 {
 	color: #ec5342;
 }
 
+/* ================ Trainers Styles =============== */
+
+#trainers {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fff;
+}
+
+.trainer-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+#trainers h2 {
+	font-family: "Lato", sans-serif;
+	margin-bottom: 0;
+}
+
+.trainer-btn {
+	max-width: 400px;
+	width: 90%;
+	height: 40px;
+	background-color: #fff;
+	border: 1px solid #d3d3d3;
+	margin: 40px 0;
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+.trainer-btn i {
+	color: #ec5342;
+}
+
+.trainer-btn:hover {
+	background-color: #d3d3d3;
+}
+
