@@ -122,8 +122,12 @@ function widthTester() {
     document.getElementById('trainers-container').innerHTML = '';
     generateTrainers(0, trainers.length);
   } else {
+    const moreLess = document.querySelector('#moreless');
+    const chevron = document.querySelector('#chevron');
     document.getElementById('trainers-container').innerHTML = '';
     generateTrainers(0, 2);
+    chevron.classList.remove('up');
+    moreLess.innerHTML = 'MORE ';
   }
 }
 
