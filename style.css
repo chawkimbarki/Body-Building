@@ -14,6 +14,19 @@ body {
 
 /* ================ Navigation Styles =============== */
 
+#before-nav {
+  display: none;
+  justify-content: flex-end;
+  align-items: center;
+  background: linear-gradient(180deg, #333, #4e4e4e);
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  height: 30px;
+}
+
+.about-header a {
+  color: #3d3d3d;
+}
 
 .partner-list a {
   color: #f5f5f5;
@@ -27,6 +40,30 @@ body {
   transition: 0.2s;
 }
 
+#before-nav a {
+  font-size: 14px;
+  color: #fff;
+  margin: 0 1%;
+  transition: 0.2s;
+}
+
+#before-nav-menu a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0;
+}
+
+#before-nav a:hover {
+  color: #ec5342;
+}
+
+#before-nav-menu {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 20%;
+  padding: 0;
+  margin: 0 5% 0 2.5%;
 }
 
 nav {
@@ -350,6 +387,14 @@ main h2 {
   align-items: center;
 }
 
+.about-header h1,
+.about-header h2,
+.about-header h3 {
+  position: relative;
+  text-align: center;
+  color: #ec5342;
+  z-index: 3;
+}
 
 #trainers h2 {
   font-family: "Lato", sans-serif;
@@ -373,6 +418,21 @@ main h2 {
   background-color: #d3d3d3;
 }
 
+.about-header {
+  position: relative;
+  padding-top: 60px;
+}
+
+.about-header div {
+  background-color: #fff;
+  border: 2px solid #d3d3d3;
+  margin: 30px auto;
+}
+
+.about-header p {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
 
 .deco-ball-2,
 .deco-ball-3,
@@ -425,7 +485,82 @@ main h2 {
   height: 25px;
 }
 
+#about {
+  background-color: #fff;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  margin-top: 40px;
 }
+
+#about h2 {
+  width: 75%;
+  margin: auto;
+}
+
+#about p {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.logo-frame {
+  background-color: #fff;
+  width: 90%;
+  border: 2px solid #d3d3d3;
+  margin: 0 5%;
+}
+
+.about-logo {
+  width: 50%;
+}
+
+#gallery {
+  background-color: #fff;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  padding-top: 20px;
+  margin-top: 1%;
+}
+
+.gallery-container {
+  max-width: 600px;
+  width: 90%;
+  margin: 2.5% auto;
+}
+
+.gallery-frame {
+  position: relative;
+  border: 2px solid #d3d3d3;
+}
+
+.gallery-img {
+  display: block;
+  width: 100%;
+}
+
+.gallery-curtain {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  background-color: #ec5342c0;
+  width: 100%;
+  height: 100%;
+  transition: 0.2s;
+}
+
+.gallery-curtain:hover {
+  opacity: 0;
+}
+
+.curtain-text {
+  font-size: 32px;
+  font-family: "COCOGOOSE", sans-serif;
+  color: #fff;
+}
+
 #partners {
   background-color: #272a31;
   text-align: center;
