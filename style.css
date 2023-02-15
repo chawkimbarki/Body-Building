@@ -123,7 +123,9 @@ nav {
 }
 
 #nav-logo {
+  padding-top: 12px;
   width: 150px;
+  border-radius: 50% 50% 50% 50%;
 }
 
 #nav-links {
@@ -278,6 +280,7 @@ header h2 {
   right: 20%;
   font-size: 30px;
   color: #b1b1b1;
+  z-index: -1;
 }
 
 /* ================ Main Styles =============== */
@@ -417,6 +420,8 @@ main h2 {
 .trainer-btn:hover {
   background-color: #d3d3d3;
 }
+
+/* ============= about styles ======================== */
 
 .about-header {
   position: relative;
@@ -561,6 +566,8 @@ main h2 {
   color: #fff;
 }
 
+/* ===================== Partners ================== */
+
 #partners {
   background-color: #272a31;
   text-align: center;
@@ -591,6 +598,8 @@ main h2 {
   width: 100px;
   height: 100px;
 }
+
+/* ================= Footer styles ======================== */
 
 footer {
   display: flex;
