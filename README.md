@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 <div align="center">
-  <img src="./assets/images/logo 2.png" style="border-radius: 50%;" alt="logo" width="140"  height="auto" />
+  <img src="assets\Images\logo 2.png" style="border-radius: 50%;" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>SUPERPOWER FITNESS CENTER</b></h3>
