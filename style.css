@@ -351,3 +351,34 @@ main h2 {
 	background-color: #d3d3d3;
 }
 
+#partners {
+	background-color: #272a31;
+	text-align: center;
+	font-family: "Lato", sans-serif;
+	color: #fff;
+	padding-top: 10px;
+}
+
+#partners h2 {
+	margin: 0;
+}
+
+#partners-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#partners-list li {
+	width: 30%;
+	margin: 20px 0;
+}
+
+.partner-logo {
+	width: 100px;
+	height: 100px;
+}
+
