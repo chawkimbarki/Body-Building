@@ -382,3 +382,16 @@ main h2 {
 	height: 100px;
 }
 
+footer {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	font-family: "Lato", sans-serif;
+	background-color: #fff;
+}
+
+.footer-logo {
+	width: 100px;
+	height: 100px;
+	padding: 20px 0;
+}
