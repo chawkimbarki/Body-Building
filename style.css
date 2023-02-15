@@ -14,6 +14,19 @@ body {
 
 /* ================ Navigation Styles =============== */
 
+
+.partner-list a {
+	color: #f5f5f5;
+	text-decoration: none;
+}
+
+#nav-links a {
+	font-size: 24px;
+	color: #272a31;
+	text-decoration: none;
+	transition: 0.2s;
+}
+
 nav {
 	top: 0;
 	position: fixed;
@@ -44,6 +57,11 @@ nav {
 	color: #ec5342;
 }
 
+#cross-container:active, #burger:active {
+	transform: scale(0.8);
+	transition: 0.2s;
+	color: red;
+}
 #nav-logo {
 	width: 150px;
 }
@@ -119,7 +137,7 @@ nav .curtain-deco {
 	position: fixed;
 	z-index: 3;
 	width: 100%;
-	height: 80px;
+	height: 62px;
 	max-height: 80px;
 }
 
@@ -139,7 +157,7 @@ nav .curtain-deco {
 	align-items: center;
 }
 
-#burger-container:hover {
+#burger:hover {
 	color: #ec5342;
 }
 
@@ -351,6 +369,57 @@ main h2 {
 	background-color: #d3d3d3;
 }
 
+
+.deco-ball-2,
+.deco-ball-3,
+.deco-ball-4,
+.deco-ball-5,
+.deco-ball-6 {
+	position: absolute;
+	background-color: #f5f5f5 !important;
+	border: none !important;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+.deco-ball-2 {
+	top: 255px;
+	background-image: url(assets/Icons/hitmark-colorful.png);
+	width: 100px;
+	height: 100px;
+}
+
+.deco-ball-3 {
+	top: 285px;
+	right: -10px;
+	background-image: url(assets/Icons/hitmark-resized.png);
+	width: 50px;
+	height: 50px;
+}
+
+.deco-ball-4 {
+	top: 160px;
+	left: 15%;
+	background-image: url(assets/Icons/hitmark-resized.png);
+	width: 40px;
+	height: 40px;
+}
+
+.deco-ball-5 {
+	top: 55px;
+	right: 10%;
+	background-image: url(assets/Shapes/b-stripes.png);
+	width: 35px;
+	height: 35px;
+}
+
+.deco-ball-6 {
+	top: 0;
+	left: 20%;
+	background-image: url(assets/Shapes/o-stripes.png);
+	width: 25px;
+	height: 25px;
+}
 #partners {
 	background-color: #272a31;
 	text-align: center;
@@ -394,4 +463,11 @@ footer {
 	width: 100px;
 	height: 100px;
 	padding: 20px 0;
+}
+
+.invisible {
+	transform: scale(2);
+	opacity: 0;
+	z-index: -2;
+	transition: 0.5s;
 }
