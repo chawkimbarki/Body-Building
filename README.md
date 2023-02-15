@@ -8,7 +8,7 @@ This is a website buit for a Bodybuilding Center. This Center is basically a gym
 
 ## Live Demo
 
-[Here](https://chawkimbarki.github.io/bodybuilding-Center/)
+[Here](https://chawkimbarki.github.io/Body-Building/)
 
 ## Built With
 
