@@ -393,10 +393,9 @@ main h2 {
 .about-header h1,
 .about-header h2,
 .about-header h3 {
-  position: relative;
   text-align: center;
   color: #ec5342;
-  z-index: 3;
+  z-index: 99;
 }
 
 #trainers h2 {
@@ -448,7 +447,7 @@ main h2 {
   background-color: #f5f5f5 !important;
   border: none !important;
   border-radius: 50%;
-  z-index: 1;
+  z-index: -1;
 }
 
 .deco-ball-2 {
@@ -516,8 +515,12 @@ main h2 {
   margin: 0 5%;
 }
 
+#about .logo-frame {
+  width:90%;
+}
+
 .about-logo {
-  width: 50%;
+  width: 100%;
 }
 
 #gallery {
@@ -629,6 +632,10 @@ footer {
     display: flex;
   }
 
+	#img-frame {
+		z-index: 5;
+	}
+
   nav {
     top: 0;
     position: fixed;
@@ -640,7 +647,7 @@ footer {
     height: 62px;
     z-index: 100;
     transition: 0.5s;
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(2px);
     background-color: #ec53424f;
   }
 
@@ -788,6 +795,9 @@ footer {
     margin: 100px auto;
   }
 
+  .contact {
+    padding-bottom: 50px;
+  }
 
   .deco-ball-2 {
     top: 415px;
@@ -817,7 +827,15 @@ footer {
     margin: 0 auto;
   }
 
+  .gallery-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: none;
+  }
 
+  .gallery-frame {
+    margin: 0 5px;
+  }
 
   .partners-list {
     flex-wrap: nowrap;
