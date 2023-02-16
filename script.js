@@ -37,30 +37,6 @@ const trainers = [
     occupation: 'Actor Producer Director',
     info: 'He is a pro bodybuilder',
   },
-  {
-    image: 'assets/Trainers/Trainer1.jfif',
-    name: 'Arnold Schwarzenegger7',
-    occupation: 'Actor Producer Director',
-    info: 'He is a pro bodybuilder',
-  },
-  {
-    image: 'assets/Trainers/Trainer1.jfif',
-    name: 'Arnold Schwarzenegger8',
-    occupation: 'Actor Producer Director',
-    info: 'He is a pro bodybuilder',
-  },
-  {
-    image: 'assets/Trainers/Trainer1.jfif',
-    name: 'Arnold Schwarzenegger9',
-    occupation: 'Actor Producer Director',
-    info: 'He is a pro bodybuilder',
-  },
-  {
-    image: 'assets/Trainers/Trainer1.jfif',
-    name: 'Arnold Schwarzenegger10',
-    occupation: 'Actor Producer Director',
-    info: 'He is a pro bodybuilder',
-  },
 ];
 const navLinks = document.querySelectorAll('.nav-link');
 const menu = document.querySelector('#burger');
