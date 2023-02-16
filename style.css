@@ -150,10 +150,15 @@ nav {
   height: 40vh;
   padding: 0;
   margin: 0;
+  text-shadow: 0 0 1px black;
+}
+#nav-links a {
+  letter-spacing: 5px;
 }
 
 #nav-links a:hover {
   color: #e21919;
+  text-shadow: 0 0 1px red;
 }
 
 #nav-btn {

@@ -36,7 +36,7 @@ const trainers = [
     name: 'Arnold Schwarzenegger6',
     occupation: 'Actor Producer Director',
     info: 'He is a pro bodybuilder',
-  },
+  }
 ];
 const navLinks = document.querySelectorAll('.nav-link');
 const menu = document.querySelector('#burger');
