@@ -1,6 +1,6 @@
-<a name="readme-top"></a>
+<a id="readme-top"></a>
 <div align="center">
-  <img src="logo 2.png" style="border-radius: 50%;" alt="logo" width="140"  height="auto" />
+  <img src="assets/images/logo 2.png" style="border-radius: 50%;" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>SUPERPOWER FITNESS CENTER</b></h3>
@@ -16,6 +16,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [🎥 Loom Video](#Loom-Video)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -33,14 +34,14 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 SUPERPOWER FITNESS CENTER <a name="about-project"></a>
+# 📖 SUPERPOWER FITNESS CENTER <a id="about-project"></a>
 
 **SUPERPOWER FITNESS CENTER** is a website that showcases the services and facilities offered by SUPERPOWER FITNESS CENTER, a gym that helps you achieve your fitness goals with personalized training and support. Whether you want to lose weight, gain muscle, or improve your health, this website will help you find the best plan for you.
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With <a id="built-with"></a>
 - HTML
 - CSS
 - JavaScript
-### Tech Stack <a name="tech-stack"></a>
+### Tech Stack <a id="tech-stack"></a>
 
 None
 
@@ -67,7 +68,7 @@ None
 
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
+### Key Features <a id="key-features"></a>
 
 - **Ease of use**
 
@@ -76,7 +77,7 @@ None
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a id="live-demo"></a>
 
 
 
@@ -84,9 +85,19 @@ None
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- Loom Video -->
+
+## 🎥 Loom Video <a id="Loom-Video"></a>
+
+
+
+- [Click Here](https://www.loom.com/share/39d655b6c20e4ecdbb413e900894123c)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
+## 💻 Getting Started <a id="getting-started"></a>
 
 - To get a local copy up and running, follow these steps.
 
@@ -127,7 +138,7 @@ Github pages
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Authors <a id="authors"></a>
 
 
 
@@ -141,7 +152,7 @@ Github pages
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
+## 🔭 Future Features <a id="future-features"></a>
 
 - **A booking system that allows the users to reserve a slot or a class at the fitness center online.**<br>
 
@@ -153,7 +164,7 @@ Github pages
 
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributing <a name="contributing"></a>
+## 🤝 Contributing <a id="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
@@ -163,14 +174,14 @@ Feel free to check the [issues page](https://github.com/chawkimbarki/Body-Buildi
 
 <!-- SUPPORT -->
 
-## ⭐️ Show your support <a name="support"></a>
+## ⭐️ Show your support <a id="support"></a>
 - Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## 🙏 Acknowledgments <a id="acknowledgements"></a>
 
 - To [Cindy Shin](https://www.behance.net/adagio07), since the whole website is based on her template.
 
@@ -178,7 +189,7 @@ Feel free to check the [issues page](https://github.com/chawkimbarki/Body-Buildi
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+## ❓ FAQ (OPTIONAL) <a id="faq"></a>
 
 - **How can i get a copy of this on my local machine**
 
@@ -192,6 +203,6 @@ Feel free to check the [issues page](https://github.com/chawkimbarki/Body-Buildi
 
 <!-- LICENSE -->
 
-## 📝 License <a name="license"></a>
+## 📝 License <a id="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
