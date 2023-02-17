@@ -15,10 +15,10 @@ body {
 /* ================ Navigation Styles =============== */
 
 #before-nav {
-  display: none;
+  display: flex;
   justify-content: flex-end;
   align-items: center;
-  background: linear-gradient(180deg, #333, #4e4e4e);
+  background: linear-gradient(#333, #4e4e4e);
   font-size: 14px;
   font-family: "Lato", sans-serif;
   height: 30px;
@@ -34,6 +34,7 @@ body {
 }
 
 #nav-links a {
+  letter-spacing: 5px;
   font-size: 24px;
   color: #272a31;
   text-decoration: none;
@@ -95,24 +96,35 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-#burger:hover {
-  color: #ec5342;
+  background-color: #ec53425a;
+  border-radius: 50%;
+  box-shadow: 0 0 50px #ff1900;
 }
 
 #cross-container {
-  position: absolute;
-  top: 20px;
-  left: 30px;
+  position: fixed;
+  color: #272a31;
+  z-index: 1000;
+  height: 40px;
+  width: 40px;
+  top: 10px;
+  left: 10px;
   font-size: 30px;
   transition: 0.2s;
   cursor: pointer;
-  z-index: 6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ec53425a;
+  border-radius: 50%;
+  box-shadow: 0 0 50px #ff1900;
 }
 
+#burger:hover,
 #cross-container:hover {
   color: #ec5342;
+  scale: 1.2;
+  box-shadow: 0 0 5px #ff1900;
 }
 
 #cross-container:active,
@@ -120,6 +132,7 @@ nav {
   transform: scale(0.8);
   transition: 0.2s;
   color: red;
+  box-shadow: 0 0 30px #ff1900;
 }
 
 #nav-logo {
@@ -138,10 +151,12 @@ nav {
   height: 40vh;
   padding: 0;
   margin: 0;
+  text-shadow: 0 0 1px black;
 }
 
 #nav-links a:hover {
-  color: #ec5342;
+  color: #e21919;
+  text-shadow: 0 0 1px red;
 }
 
 #nav-btn {
@@ -196,7 +211,7 @@ nav .curtain-deco {
 }
 
 #img-frame {
-  position: fixed;
+  position: sticky;
   z-index: 3;
   width: 100%;
   height: 62px;
@@ -209,7 +224,7 @@ nav .curtain-deco {
   width: 100%;
   height: 100%;
   background: #f5f5f5d0;
-  background: linear-gradient(#ec534247, #ec534247), url(assets/Images/Gym.png);
+  background: linear-gradient(#f5f5f5, #f5f5f5ad), url(assets/Images/Gym.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -219,29 +234,38 @@ nav .curtain-deco {
   position: absolute;
   right: 15%;
   bottom: 10%;
-  width: 7.5%;
+  width: 4%;
+  height: 100%;
 }
 
 /* ================ Headline Styles =============== */
 
-header {
-  padding-top: 80px;
+.headline {
+  padding-top: 20px;
   position: relative;
   margin: 0 5%;
 }
 
-header h1 {
+.headline h1 {
   font-family: "Lato", sans-serif;
   font-size: 24px;
   color: #ec5342;
+  padding: 0 2% 0 5%;
 }
 
-header h2 {
+main h2 {
+  font-family: "Lato", sans-serif;
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+
+.headline h2 {
   font-family: "COCOGOOSE", sans-serif;
   line-height: 100%;
   font-size: 34px;
   color: red;
-  margin: 30px 0 50px 0;
+  margin: 1% 0 1% 0;
+  padding: 0 3% 0 5%;
 }
 
 .txt-container {
@@ -250,10 +274,12 @@ header h2 {
   font-family: "Lato", sans-serif;
   border: 3px solid #fff;
   z-index: 2;
+  width: 75%;
+  margin: 3% 3% 5% 5%;
 }
 
 .txt-container p {
-  margin: 0 5%;
+  margin: 5%;
 }
 
 #tag-container {
@@ -261,6 +287,7 @@ header h2 {
   font-family: "Lato", sans-serif;
   color: #6c6c6c;
   padding-bottom: 75px;
+  margin: 3% 3% 5% 5%;
 }
 
 .tag-hitmark {
@@ -297,13 +324,7 @@ main {
   flex-direction: column;
 }
 
-main h2 {
-  font-family: "Lato", sans-serif;
-  padding-top: 20px;
-  margin-bottom: 0;
-}
-
-#h-underline {
+.h-underline {
   width: 10%;
   border-color: #ec5342;
   margin-bottom: 20px;
@@ -453,7 +474,7 @@ main h2 {
 }
 
 .trainer-info hr {
-  text-align: left;
+  text-align: center;
   width: 10%;
   margin-left: 0;
 }
@@ -636,10 +657,12 @@ main h2 {
 
 #partners {
   background-color: #272a31;
-  text-align: center;
   font-family: "Lato", sans-serif;
   color: #fff;
-  padding-top: 10px;
+  padding: 10px 1% 0 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #partners h2 {
@@ -648,21 +671,25 @@ main h2 {
 
 #partners-list {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
   list-style-type: none;
   padding: 0;
   margin: 0;
+  align-items: center;
 }
 
 #partners-list li {
-  width: 30%;
-  margin: 20px 0;
+  width: 20%;
+}
+
+#partners hr {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 5%;
 }
 
 .partner-logo {
-  width: 100px;
-  height: 100px;
+  width: 100%;
 }
 
 /* ================= Footer styles ======================== */
@@ -688,20 +715,31 @@ footer {
   transition: 0.5s;
 }
 
+/* ==================== Mobile styles ========================== */
+
+@media only screen and (max-width: 767.9px) {
+  #before-nav {
+    display: none;
+  }
+}
+
 /* ==================== Desktop styles ========================= */
 
 @media only screen and (min-width: 768px) {
-  .before-nav {
-    display: flex;
+  #img-curtain {
+    position: relative;
+    height: 62px;
+    top: 0;
   }
 
   #img-frame {
-    z-index: 5;
+    position: sticky;
+    height: 62px;
+    top: 0;
   }
 
   nav {
-    top: 0;
-    position: fixed;
+    position: sticky;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -712,6 +750,60 @@ footer {
     transition: 0.5s;
     backdrop-filter: blur(2px);
     background-color: #ec53424f;
+  }
+
+  .headline {
+    padding-top: 20px;
+    position: relative;
+    margin: 2% 10%;
+  }
+
+  header h1 {
+    font-size: 40px;
+  }
+
+  header h2 {
+    font-size: 60px;
+  }
+
+  .headline h1 {
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    color: #ec5342;
+    padding: 0 30px 0 50px;
+  }
+
+  main h2 {
+    padding-top: 80px;
+  }
+
+  .headline h2 {
+    font-family: "COCOGOOSE", sans-serif;
+    line-height: 100%;
+    font-size: 34px;
+    color: red;
+    margin: 10px 0 10px 0;
+    padding: 0 30px 0 50px;
+  }
+
+  .txt-container {
+    position: relative;
+    background-color: #f5f5f5;
+    font-family: "Lato", sans-serif;
+    border: 3px solid #fff;
+    z-index: 2;
+    width: 75%;
+    margin: 30px 30px 50px 50px;
+    font-size: 18px;
+    max-width: 900px;
+  }
+
+  .txt-container p {
+    margin: 5%;
+  }
+
+  #tag-container {
+    margin: 30px 30px 50px 50px;
   }
 
   .deco-ball-1 {
@@ -756,19 +848,6 @@ footer {
   #nav-btn {
     margin-right: 5%;
     margin-bottom: 0;
-  }
-
-  header h1 {
-    font-size: 40px;
-  }
-
-  header h2 {
-    font-size: 60px;
-  }
-
-  .txt-container {
-    font-size: 18px;
-    max-width: 900px;
   }
 
   .card h3 {
@@ -817,10 +896,6 @@ footer {
 
   main {
     padding-bottom: 10px;
-  }
-
-  main h2 {
-    padding-top: 80px;
   }
 
   main hr {
@@ -878,7 +953,7 @@ footer {
   }
 
   .about-header {
-    padding-top: 200px;
+    padding-top: 100px;
   }
 
   .about-header .txt-container {
