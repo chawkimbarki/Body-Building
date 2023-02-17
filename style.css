@@ -14,7 +14,7 @@ body {
 
 /* ================ Navigation Styles =============== */
 
-#before-nav {
+.before-nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -41,24 +41,24 @@ body {
   transition: 0.2s;
 }
 
-#before-nav a {
+.before-nav a {
   font-size: 14px;
   color: #fff;
   margin: 0 1%;
   transition: 0.2s;
 }
 
-#before-nav-menu a {
+.before-nav-menu a {
   text-decoration: none;
   color: #fff;
   margin: 0;
 }
 
-#before-nav a:hover {
+.before-nav a:hover {
   color: #ec5342;
 }
 
-#before-nav-menu {
+.before-nav-menu {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
@@ -135,7 +135,7 @@ nav {
   box-shadow: 0 0 30px #ff1900;
 }
 
-#nav-logo {
+.nav-logo {
   padding-top: 12px;
   width: 150px;
   border-radius: 50% 50% 50% 50%;
@@ -218,7 +218,7 @@ nav .curtain-deco {
   max-height: 80px;
 }
 
-#img-curtain {
+.img-curtain {
   z-index: 50;
   top: 0;
   width: 100%;
@@ -240,13 +240,13 @@ nav .curtain-deco {
 
 /* ================ Headline Styles =============== */
 
-.headline {
+#headline {
   padding-top: 20px;
   position: relative;
   margin: 0 5%;
 }
 
-.headline h1 {
+#headline h1 {
   font-family: "Lato", sans-serif;
   font-size: 24px;
   color: #ec5342;
@@ -259,7 +259,7 @@ main h2 {
   margin-bottom: 0;
 }
 
-.headline h2 {
+#headline h2 {
   font-family: "COCOGOOSE", sans-serif;
   line-height: 100%;
   font-size: 34px;
@@ -718,7 +718,7 @@ footer {
 /* ==================== Mobile styles ========================== */
 
 @media only screen and (max-width: 767.9px) {
-  #before-nav {
+  .before-nav {
     display: none;
   }
 }
@@ -726,7 +726,7 @@ footer {
 /* ==================== Desktop styles ========================= */
 
 @media only screen and (min-width: 768px) {
-  #img-curtain {
+  .img-curtain {
     position: relative;
     height: 62px;
     top: 0;
@@ -752,7 +752,7 @@ footer {
     background-color: #ec53424f;
   }
 
-  .headline {
+  #headline {
     padding-top: 20px;
     position: relative;
     margin: 2% 10%;
@@ -766,7 +766,7 @@ footer {
     font-size: 60px;
   }
 
-  .headline h1 {
+  #headline h1 {
     font-family: "Lato", sans-serif;
     font-size: 24px;
     color: #ec5342;
@@ -777,7 +777,7 @@ footer {
     padding-top: 80px;
   }
 
-  .headline h2 {
+  #headline h2 {
     font-family: "COCOGOOSE", sans-serif;
     line-height: 100%;
     font-size: 34px;
@@ -820,11 +820,11 @@ footer {
     display: none;
   }
 
-  #nav-logo-frame {
+  .nav-logo-frame {
     padding-left: 30px;
   }
 
-  #nav-logo {
+  .nav-logo {
     height: 75px;
     width: 75px;
   }
