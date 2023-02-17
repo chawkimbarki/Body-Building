@@ -40,7 +40,7 @@ const trainers = [
 ];
 const navLinks = document.querySelectorAll('.nav-link');
 const menu = document.querySelector('#burger');
-const cross = document.querySelector('#cross-container');
+const cross = document.querySelector('.cross-container');
 const trainerButton = document.querySelector('.trainer-btn');
 
 // ============================================ Functions ====================================

@@ -101,7 +101,7 @@ nav {
   box-shadow: 0 0 50px #ff1900;
 }
 
-#cross-container {
+.cross-container {
   position: fixed;
   color: #272a31;
   z-index: 1000;
@@ -121,13 +121,13 @@ nav {
 }
 
 #burger:hover,
-#cross-container:hover {
+.cross-container:hover {
   color: #ec5342;
   scale: 1.2;
   box-shadow: 0 0 5px #ff1900;
 }
 
-#cross-container:active,
+.cross-container:active,
 #burger:active {
   transform: scale(0.8);
   transition: 0.2s;
@@ -814,7 +814,7 @@ footer {
   }
 
   #burger,
-  #cross-container,
+  .cross-container,
   nav .deco-ball-1,
   nav .curtain-deco {
     display: none;
